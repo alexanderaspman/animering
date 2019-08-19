@@ -3,7 +3,7 @@ const boxesAnimation = window.anime({
     translateY: [150, 50],
     backgroundColor: {
       value: (el, i, t) => {
-        const r = 132 + (i * 12);
+        const r = 232 + (i * 12);
         const g = 75 + (i * 12);
         const b = 20;
         const color = `rgb(${r}, ${g}, ${b})`;
